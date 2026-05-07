@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Sleep-EDF Expanded",
+  "source_url": "https://physionet.org/content/sleep-edfx/1.0.0/",
+  "license": "ODC-BY 1.0",
+  "signal_format": "EDF+",
+  "annotation_standard": "Rechtschaffen and Kales",
+  "epoch_length_sec": 30,
+  "anomaly_classes": [
+    "W",
+    "?"
+  ],
+  "subjects": [
+    {
+      "subject_id": "SC4001",
+      "psg_file": "SC4001E0-PSG.edf",
+      "hypno_file": "SC4001EC-Hypnogram.edf",
+      "channels": {
+        "EEG Fpz-Cz": {
+          "sampling_rate_hz": 100
+        },
+        "EEG Pz-Oz": {
+          "sampling_rate_hz": 100
+        },
+        "EOG horizontal": {
+          "sampling_rate_hz": 100
+        },
+        "EMG submental": {
+          "sampling_rate_hz": 1
+        }
+      }
+    },
+    {
+      "subject_id": "SC4002",
+      "psg_file": "SC4002E0-PSG.edf",
+      "hypno_file": "SC4002EC-Hypnogram.edf",
+      "channels": {
+        "EEG Fpz-Cz": {
+          "sampling_rate_hz": 100
+        },
+        "EEG Pz-Oz": {
+          "sampling_rate_hz": 100
+        },
+        "EOG horizontal": {
+          "sampling_rate_hz": 100
+        },
+        "EMG submental": {
+          "sampling_rate_hz": 1
+        }
+      }
+    }
+  ]
+}
